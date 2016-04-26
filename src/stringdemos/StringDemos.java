@@ -18,6 +18,8 @@ public class StringDemos {
         for (int i = 0; i < msg.length(); i++) {
             System.out.printf("msg[%d] = %c%n", i, msg.charAt(i));
         }
+        
+        String quote = "Book’s title is \"Intro to Java\"";
     }
 
 }
