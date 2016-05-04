@@ -10,6 +10,8 @@ public class CountSubstring {
         int count = 0;
         String s = str.toLowerCase();
         String ss = searchedString.toLowerCase();
+        //it helps us to search for a substring whether search string is case insensitive
+        
         int index = s.indexOf(ss);
         while (index != -1) {
 
